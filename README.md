@@ -16,23 +16,18 @@ Tailwind CSS と Chart.js を CDN から読み込み、ローカルストレー�
 | 5️⃣ | 「全削除」ボタンで一括消去（確認ダイアログ付き）。 |
 
 > **⚠️** 本アプリは「静的サイト」です。サーバー側の処理や認証は実装されていません。
+> データはブラウザのローカルストレージに保存され、サーバーには送信・保存されません。
 
----
-
-## 🛠 技術スタック
-
-| テクノロジ | 役割 |
-|------------|------|
-| HTML5 / JavaScript (ES6) | UI とビジネスロジック |
-| Tailwind CSS (CDN) | スタイリング |
-| Chart.js (CDN) | グラフ描画 |
+>手動でブラウザのキャッシュ・サイトデータを消去すると体重データは消えますので、その前にCSV機能でバックアップ、再帰ができます。
 
 ---
 
 ## 🚀 Quick Start
+2つの方法があります。
+1. 以下のwebページから使用
+   -https://kan-taro.github.io/weight-fat-tracker/
 
-
-1. リポジトリをクローン
+1. オフラインで使いたい場合、リポジトリをクローン
   - git clone https://github.com/kan-taro/weight-fat-tracker.git
   - cd weight-fat-tracker
   - open index.html
@@ -57,3 +52,14 @@ Tailwind CSS と Chart.js を CDN から読み込み、ローカルストレー�
    - 「CSVインポート」→ファイル選択。既存の日付は上書きされます。  
 
 > データはブラウザのローカルストレージに保存され、サーバーには送信されません。
+
+---
+
+## 🛠 技術スタック
+
+| テクノロジ | 役割 |
+|------------|------|
+| HTML5 / JavaScript (ES6) | UI とビジネスロジック |
+| Tailwind CSS (CDN) | スタイリング |
+| Chart.js (CDN) | グラフ描画 |
+
