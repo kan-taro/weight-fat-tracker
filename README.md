@@ -25,7 +25,7 @@ Tailwind CSS と Chart.js を CDN から読み込み、ローカルストレー�
 ## 🚀 Quick Start
 2つの方法があります。
 1. 以下のwebページから使用
-   -https://kan-taro.github.io/weight-fat-tracker/
+  - https://kan-taro.github.io/weight-fat-tracker/
 
 1. オフラインで使いたい場合、リポジトリをクローン
   - git clone https://github.com/kan-taro/weight-fat-tracker.git
